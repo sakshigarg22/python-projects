@@ -1,8 +1,4 @@
-def outer(a,b):
-    def inner():
-        nonlocal a
-        nonlocal b
-        return(ord(a),ord(b))
-    a1,b1 = inner()
-    return(a1+b1)
-print(outer('c','d'))
+n = 4
+for i in range(0,n+1):
+    print("*"*(n-i)+"*"*i)
+print()

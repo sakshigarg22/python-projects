@@ -1,7 +1,3 @@
-h = 10
-for i in range(1,h+1):
-    for k in range(i):
-        print("*",end=" ")
-        print()
-        
-
+s1 = 'my'
+s2 = 'laptop'
+print(s1,end="s2")
